@@ -8,10 +8,10 @@ public class CircleTotalizer {
     }
 
     public double perimeterTotalizer(){
-        return radius*4;
+        return 2*Math.PI*radius;
     }
 
     public double areaTotalizer(){
-        return radius*radius;
+        return Math.PI*radius*radius;
     }
 }

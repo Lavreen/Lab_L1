@@ -27,17 +27,17 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     </dependency>
 </dependencies>
 <build>
-    <finalName>ShapeTotalizer-1.0</finalName>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-                <source>7</source>
-                <target>7</target>
-            </configuration>
-        </plugin>
-    </plugins>
+    <finalName>ShapeTotalizer-1.1</finalName>
+<!--    <plugins>-->
+<!--        <plugin>-->
+<!--            <groupId>org.apache.maven.plugins</groupId>-->
+<!--            <artifactId>maven-compiler-plugin</artifactId>-->
+<!--            <configuration>-->
+<!--                <source>7</source>-->
+<!--                <target>7</target>-->
+<!--            </configuration>-->
+<!--        </plugin>-->
+<!--    </plugins>-->
 </build>
 <properties>
     <java.version>14</java.version>
