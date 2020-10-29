@@ -1,16 +1,16 @@
 import java.util.Scanner;
-
+/NOWA WERSJA TEST
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         double perimeter = 0, area = 0, side = 0;
         String choice;
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.println("Please type in a shape name you're interested in knowing the totals of.\n" +
-                "Available choices: square, circle.");
+        System.out.println("Please type in a shape name you're interested in knowing the totals of.\n"
+                            + "Available choices: square, circle.");
         choice = scanner.nextLine();
-        switch(choice){
+        switch(choice) {
             case "square":
                 System.out.println("Please input the side length:");
                 side = Double.parseDouble(scanner.nextLine());
@@ -30,8 +30,9 @@ public class Main {
                 System.out.print("Circle's");
                 break;
         }
-        System.out.println(" totals are as follows:\n" +
-                "perimeter is equal to " + perimeter + "\n" +
-                "area is equal to " + area);
+        System.out.println(" totals are as follows:\n"
+                            + "perimeter is equal to "
+                            + perimeter + "\n"
+                            + "area is equal to " + area);
     }
 }
